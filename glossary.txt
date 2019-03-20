@@ -1,0 +1,12 @@
+1. winning move
+def: the current move a player makes to win the game.
+2. grid
+def: a tuple of width and height of a counter in the frame. For example, if the width and height of the counter is 3 and 2. Then it is denoted as (3, 2).
+3. current grid
+def: the grid of the current move, i.e. the move to be tested in the program.
+4. grid history
+def: the sequential grids of all historical moves (including the current grid) for a given player. Its last element element corresponds to the current move and its first element corresponds to the first move of the player.  
+5. winning combination
+def: the list of grids for a given player to win. For example, in a 3 3 3 dimensions game, the winning combination for player 1 can be [(1, 1), (2, 1), (3, 1)].
+6. game checking function
+def: the function to identify the special game condition, such as draw, win, incomplete and etc.
